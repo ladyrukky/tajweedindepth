@@ -1,0 +1,278 @@
+body {
+  background-color: white;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  margin: 0%;
+}
+
+.title {
+  font-family: 'Barlow', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* NAVBAR */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  background-color: rgba(247, 247, 247, 1);
+  font-size: 10px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+  opacity: 90%;
+  color: black;
+}
+
+/* PARALLAX EFFECT */
+
+/* for the first image */
+.parallax1 {
+  background-image: url("img1p.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* for the second image */
+.parallax {
+  background-image: url("img2p.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ABOUT ME CONTAINER */
+
+.pictures {
+  width: 100%;
+  height: 95%;
+  background-color: rgba(247, 247, 247, 1);
+  padding: 0;
+  margin: 0;
+}
+
+.right {
+  float: right;
+  margin-right: 2%;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.left {
+  float: left;
+  margin-left: 5%;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.log {
+  margin-top: 5%;
+
+}
+
+.text {
+  width: 40%;
+}
+
+/* ABOUT ME TEXT */
+
+#aboutme {
+  font-family: 'Barlow', sans-serif;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+#aboutmetext {
+  font-size: 1.2em;
+  line-height: 35px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+#learnmore {
+  border-radius: 50%;
+  border-color: black;
+  background-color: transparent;
+  display: inline-block;
+  color: black; /* text color */
+  font-size: 1em;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  border-radius: 50px; /* rounded corners */
+  padding: 15px 25px; /* space around text */
+  cursor: pointer;
+}
+
+#hifzTips {
+  background-color: white;
+  margin-bottom: -7%;
+}
+
+#quran {
+  background-color: rgba(247, 247, 247, 1);
+}
+
+#quranQuizzes {
+  background-color: white;
+  margin-bottom: -10%;
+}
+
+#islamicStudies {
+  background-color: white;
+}
+
+/* CONTACT AREA */
+
+#contact {
+  margin: 5%;
+  margin-bottom: 2%;
+  margin-top: 0%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  background-color: silver;
+}
+
+.contactinfo {
+  font-family: 'Barlow', sans-serif;
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+  background-color: silver;
+}
+
+.contactForm {
+  width: 49%;
+  background-color: lightgrey;
+  height: 100%;
+  float: left;
+  padding: 3%;
+  padding-top: 2%;
+  padding-right: 0%;
+  margin: 0;
+}
+
+form {
+  margin: 0;
+}
+
+#ourEmail {
+  font-size: 150%;
+  font-weight: 400;
+}
+
+.imgContact {
+  float: left;
+  width: 40%;
+  height: 100%;
+}
+
+#submitBtn {
+  border-radius: 50%;
+  border-color: black;
+  background-color: transparent;
+  display: inline-block;
+  color: black; /* text color */
+  font-size: 1em;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  border-radius: 50px; /* rounded corners */
+  padding: 15px 25px; /* space around text */
+  cursor: pointer;
+}
+
+.contactHead {
+  font-weight: 400;
+  margin: 0%;
+  margin-bottom: 1%;
+}
+
+.contactPage {
+  display: inline-block;
+}
+
+/* FOOTER AREA */
+
+.footer {
+  background-color: rgba(247, 247, 247, 1);
+  padding-top: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+/* Scroll back to top */
+
+#myBtn {
+  /* display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(247, 247, 247, 1);
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */
+  float: right;
+  font-weight: 100;
+}
+
+#myBtn:hover {
+  background-color: white; /* Add a dark-grey background on hover */
+}
+
+.titleHeader {
+  margin-top: 0%;
+}
+
+.quranImg {
+  width: 90%;
+  margin-left: 2%;
+  margin-right: 2%;
+}

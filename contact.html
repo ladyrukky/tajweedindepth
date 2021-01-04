@@ -1,0 +1,94 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("ruqayyahmuse@gmail.com", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
+
+
+<html>
+<title> Tajweed In Depth </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="site.css">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap" rel="stylesheet">
+
+<header>
+
+  <div>
+    <p class="title" id="top"><a href="index.html">TAJWEED IN DEPTH</a></p>
+  </div>
+
+  <ul>
+    <li><a href="#tajweed Lessons">Tajweed Lessons</a></li>
+    <li><a href="#ytChannel">Youtube Channel</a></li>
+    <li><a href="#hifzTips">Hifz Tips</a></li>
+    <li><a href="#quran">Quran</a></li>
+    <li><a href="#islamicStudies">Islamic Studies</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+</header>
+
+
+<body>
+<div class="contactPage">
+  <div class="contactForm">
+    <div>
+      <h3 id="ourEmail">Please use this form to reach us with any questions or concerns. Our email is <u>indepthtajweed@gmail.com</u></h3>
+    </div>
+
+    <br><br>
+
+    <form method="post" name="contact_form" action="contactus.php">
+
+      <p class="contactHead">Name:</p>
+      <input type="text" size="35" name="name"><br><br>
+
+      <p class="contactHead">Email:</p>
+      <input type="text" size="35" name="mail"><br><br>
+
+      <p class="contactHead">Message:</p>
+      <textarea name="message" rows="10" cols="60"></textarea><br><br>
+
+
+      <input type="submit" id="submitBtn" name="submit">
+
+    </form>
+<!--
+    <script>
+      var frmvalidator = new Validator("contactform");
+      frmvalidator.addValidation("name","req","Please provide your name");
+      frmvalidator.addValidation("email","req","Please provide your email");
+      frmvalidator.addValidation("email","email", "Please enter a valid email address");
+    </script> -->
+
+  </div>
+
+  <div class="imgContact">
+    <img src="tjwdind.png">
+  </div>
+
+</div>
+
+</body>
+
+<div class="footer">
+  <p>©2020 by Hidayah Dabiri | All Rights Reserved</p>
+  <p>Image 1 by: <a href="https://pixabay.com/users/jpeter2-697843/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=615415">Jörg Peter</a> | Image 2 by: <a href="https://unsplash.com/photos/POQpaIVxsPg">Zahra Tavakoli Fard</a>
+  <a href="#top"><button id="myBtn">TOP</button></a>
+</div>
+
+</html>
